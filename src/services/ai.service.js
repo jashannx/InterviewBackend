@@ -1,8 +1,11 @@
 import OpenAI from "openai";
 import dotenv from "dotenv";
-import { z } from "zod";
-import puppeteer from "puppeteer-core";
+import { z } from "zod"; 
+ 
+    import puppeteer from "puppeteer-core";
 import chromium from "@sparticuz/chromium";
+
+
 dotenv.config();
 
 const client = new OpenAI({
@@ -218,9 +221,6 @@ export async function generatePdf({resume,selfdescription,jobdescription}){
         console.error("Resume PDF Generation Error:", error);
       }
     }
- 
-    import puppeteer from "puppeteer-core";
-import chromium from "@sparticuz/chromium";
 
 export async function htmlToPdf(html) {
   try {

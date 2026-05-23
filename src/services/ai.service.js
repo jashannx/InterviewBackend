@@ -1,7 +1,8 @@
 import OpenAI from "openai";
 import dotenv from "dotenv";
 import { z } from "zod";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 dotenv.config();
 
 const client = new OpenAI({
@@ -217,22 +218,28 @@ export async function generatePdf({resume,selfdescription,jobdescription}){
         console.error("Resume PDF Generation Error:", error);
       }
     }
+ 
+    import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 
 export async function htmlToPdf(html) {
   try {
+    // Detect environment
+    const isProduction = process.env.NODE_ENV === "production";
+
     const browser = await puppeteer.launch({
-       headless: true,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"]
-    }
-  );
-    const page = await browser.newPage();
-        await page.setViewport({
-      width: 1240,
-      height: 1754,
-      deviceScaleFactor: 2
+      args: chromium.args,
+      defaultViewport: chromium.defaultViewport,
+      executablePath: isProduction
+        ? await chromium.executablePath()   // cloud binary
+        : puppeteer.executablePath(),        // local Chrome
+      headless: chromium.headless,
     });
 
-  await page.setContent(html, { waitUntil: "networkidle0" });
+    const page = await browser.newPage();
+
+    await page.setContent(html, { waitUntil: "networkidle0" });
+
     const pdfBuffer = await page.pdf({
       format: "A4",
       printBackground: true,
@@ -240,17 +247,17 @@ export async function htmlToPdf(html) {
         top: "20mm",
         right: "15mm",
         bottom: "20mm",
-        left: "15mm"
+        left: "15mm",
       },
-        preferCSSPageSize: true
+      preferCSSPageSize: true,
     });
-  await browser.close();
-  return pdfBuffer;
-  }
-  catch (error) { 
+
+    await browser.close();
+    return pdfBuffer;
+
+  } catch (error) {
     console.error("HTML to PDF Conversion Error:", error);
     throw error;
   }
 }
-
 

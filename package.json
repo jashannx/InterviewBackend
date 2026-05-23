@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sparticuz/chromium": "^148.0.0",
     "axios": "^1.16.1",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
@@ -26,7 +27,7 @@
     "multer": "^2.1.1",
     "openai": "^6.38.0",
     "pdfjs-dist": "^5.7.284",
-    "puppeteer": "^22.15.0",
+    "puppeteer-core": "^25.0.4",
     "z": "^1.0.9",
     "zod": "^4.4.3"
   },

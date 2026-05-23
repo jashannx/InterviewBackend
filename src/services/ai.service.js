@@ -59,7 +59,7 @@ export async function generateInterviewReport({
   try {
     const completion = await client.chat.completions.create({
     //  model: "qwen/qwen3-coder:free"
-     model: "openai/gpt-4o-mini",
+     model: "openai/gpt-4o",
       messages: [
         {
           role: "system",
@@ -75,20 +75,20 @@ Generate an interview report using this structure:
       "question": string,
       "intention": string,
       "answer": string
-    }
+    }(4questions)
   ],
   "behavioralQuestions": [
     {
       "question": string,
       "intention": string,
       "answer": string
-    }
+    }(4questions)
   ],
   "skillGaps": [
     {
       "skill": string,
       "severity": "low" | "medium" | "high"
-    }
+    }(2-3 skills)
   ],
  
 "preparationPlan": [
@@ -96,7 +96,7 @@ Generate an interview report using this structure:
     "day": 1,
     "focus": "Topic name",
     "tasks": ["activity1", "activity2"]
-  }
+  }(5-6 days plan proper)
 ],
 "title": string
 //job title that best matches the job description

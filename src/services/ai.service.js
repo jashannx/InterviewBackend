@@ -59,7 +59,7 @@ export async function generateInterviewReport({
   try {
     const completion = await client.chat.completions.create({
     //  model: "qwen/qwen3-coder:free"
-     model: "openai/gpt-4o",
+     model: "openai/gpt-4o-mini",
       messages: [
         {
           role: "system",

@@ -139,4 +139,4 @@ export async function generateResumePdf(req, res) {
     console.error("Error generating resume PDF:", error);
     res.status(500).json({ message: "Server error" });
   }
-}
+}  

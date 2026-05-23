@@ -1,0 +1,139 @@
+{
+    "jobDescription": "We are looking for a motivated and enthusiastic Full Stack Web Developer Intern who is passionate about developing scalable and user-friendly web applications. The candidate should have a good understanding of frontend and backend technologies including HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. Familiarity with REST APIs, authentication systems, version control tools like Git, and responsive UI design is highly preferred.\n\nThe ideal candidate should possess strong problem-solving skills, eagerness to learn, and the ability to work collaboratively in a fast-paced environment. Responsibilities include developing and maintaining web applications, debugging issues, optimizing performance, and participating in team discussions and code reviews. Knowledge of data structures, algorithms, and modern development practices will be considered an added advantage.",
+    "resume": "Jashandeep Singh  Mohali, Punjab  Ó   +91-7888875339   R   jashannx@gmail.com   °   LinkedIn      GitHub   LeetCode  SUMMARY  Analytical and detail-oriented   Computer Science Engineering undergraduate   with strong expertise in the   MERN stack   and advanced problem-solving skills. Experienced in building   scalable full-stack applications   and translating requirements into efficient technical solutions. Solved   455+ Data Structures & Algorithms problems   with a strong focus on logic, optimization, and clean coding practices. Actively seeking opportunities as an   Associate Software Engineer / Associate Business Analyst   to contribute to product-focused development at PlaySimple Games.  EDUCATION  Chandigarh University, Punjab   July 2027  Mohali, Punjab  Kailash Bahl DAV Sr Sec Public School, Chandigarh   April 2023  Class XII CBSE -   Percentage   -   90.8%   Sector 7, Chandigarh  Kailash Bahl DAV Sr Sec Public School, Chandigarh   March 2021  Class X CBSE -   Percentage   -   88.2%   Sector 7, Chandigarh  PROJECTS Airbnb (Travel   Listing Platform)   |   MongoDB, Express.js, React.js, Node.js, Tailwind CSS —   Jan 2026  •   Built a full-stack Airbnb clone with features like user authentication (JWT), property listings, search filters, and booking system.  •   Designed RESTful APIs using Node.js and Express, ensuring secure and efficient backend operations.  •   Integrated MongoDB for property data storage and deployed the application on Render/Vercel.  Currency Converter App   |   React.js, API Integration, CSS —   June 2025  •   Developed a real-time currency converter fetching live exchange rates via third-party API.  •   Designed a user-friendly, responsive interface for cross-device accessibility.  •   Enhanced usability by supporting multiple global currencies.  Portfolio Website   |   React.js, Tailwind CSS, GitHub, Vercel   July 2025  •   Created a personal portfolio website to showcase skills, projects, and contact details.  •   Improved recruiter engagement by 40 with responsive design and interactive UI.  •   Designed a responsive and user-friendly interface with CSS for seamless usability on desktop and mobile.  SKILLS  Languages:   C++,Java,JavaScript .  Web Development:   HTML, CSS, Bootstrap, React.js, Node.js, Express.js, MongoDB.  CS Fundamentals:   Object-Oriented Programming, DBMS, Computer Networks.  Tools:   Git, GitHub, VS Code.  Areas of Interest:   Full-Stack Development, Algorithm Design, Software Engineering.  ACHIEVEMENTS  •   Solved   455+ Data Structures and Algorithms demonstrating strong logical reasoning and algorithmic thinking.  •   Consistently practiced problem-solving across arrays, trees, graphs, dynamic programming, and greedy algorithms.  •   Currently Recognized for leadership as   Class Representative (2024-2026)  CERTIFICATIONS  •   DBMS Foundations – Coursera (Apr 2025) Gained solid understanding of database design, relational models, and foundational SQL skills for effective data management.  •   Web Development Certification – Apna College (Jan 2026) Comprehensive training in HTML, CSS, JavaScript, and MERN stack fundamentals, with hands-on projects and practical implementation.  •   Class Representative (CR) – B.Tech CSE (Aug-Dec 2024) Coordinated between faculty and 60+ students, managed academic updates, and represented the batch during departmental meetings.  B.E   -   Computer   Science   and   Engineering   -   CGPA   -   7.96",
+    "selfDescription": "I am a passionate and dedicated Computer Science Engineering student with a strong interest in full-stack web development, data structures, and problem solving. I enjoy building real-world projects using technologies like React.js, Node.js, Express.js, MongoDB, and modern JavaScript. I continuously work on improving my coding skills through platforms like LeetCode and CodeChef, and I am always eager to learn new technologies and development practices. I am a quick learner, a good team player, and someone who enjoys solving challenging technical problems.\n\nAlong with technical skills, I possess strong communication and analytical abilities. I have worked on several projects including clone applications and AI-based systems, which helped me understand practical software development workflows and collaboration. I am highly motivated to grow as a software developer and contribute effectively to innovative projects while continuously enhancing my technical expertise and professional skills.",
+    "matchScore": 85,
+    "technicalQuestions": [
+        {
+            "question": "Can you explain the concept of RESTful APIs?",
+            "intention": "To assess understanding of API design principles.",
+            "answer": "RESTful APIs are architectural styles that use HTTP requests to access and use data. They are stateless, meaning each request from the client contains all the information needed to process it. They typically use standard HTTP methods like GET, POST, PUT, and DELETE."
+        },
+        {
+            "question": "How do you manage state in a React application?",
+            "intention": "To evaluate knowledge of state management in React.",
+            "answer": "State in a React application can be managed using the useState hook for local state management, or by using context API or state management libraries like Redux for global state management."
+        }
+    ],
+    "behavioralQuestions": [
+        {
+            "question": "Describe a challenging project you worked on and how you overcame the difficulties.",
+            "intention": "To understand problem-solving and teamwork skills.",
+            "answer": "I worked on an Airbnb clone project where I faced challenges with user authentication. I researched JWT implementation and collaborated with peers to troubleshoot issues, ultimately successfully integrating secure user login."
+        },
+        {
+            "question": "How do you prioritize tasks when working on multiple projects?",
+            "intention": "To gauge time management and organizational skills.",
+            "answer": "I prioritize tasks based on deadlines and project importance. I use tools like Trello to organize my tasks and ensure I allocate time effectively to meet project goals."
+        }
+    ],
+    "skillGaps": [
+        {
+            "skill": "Advanced Database Management",
+            "severity": "medium"
+        },
+        {
+            "skill": "Version Control Best Practices",
+            "severity": "low"
+        }
+    ],
+    "preparationPlan": [
+        {
+            "day": 1,
+            "focus": "Advanced Database Management",
+            "tasks": [
+                "Review SQL queries and database design principles",
+                "Complete exercises on database normalization"
+            ]
+        },
+        {
+            "day": 2,
+            "focus": "Version Control Best Practices",
+            "tasks": [
+                "Study Git branching strategies",
+                "Practice collaborative workflows using Git"
+            ]
+        }
+    ],
+    "user": "6a0dfc48833c4fecf27268ce",
+    "_id": "6a10507f034c731152b172e4",
+    "createdAt": "2026-05-22T12:47:59.544Z",
+    "updatedAt": "2026-05-22T12:47:59.544Z",
+    "__v": 0
+}
+
+{
+    "report": {
+        "_id": "6a10507f034c731152b172e4",
+        "jobDescription": "We are looking for a motivated and enthusiastic Full Stack Web Developer Intern who is passionate about developing scalable and user-friendly web applications. The candidate should have a good understanding of frontend and backend technologies including HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. Familiarity with REST APIs, authentication systems, version control tools like Git, and responsive UI design is highly preferred.\n\nThe ideal candidate should possess strong problem-solving skills, eagerness to learn, and the ability to work collaboratively in a fast-paced environment. Responsibilities include developing and maintaining web applications, debugging issues, optimizing performance, and participating in team discussions and code reviews. Knowledge of data structures, algorithms, and modern development practices will be considered an added advantage.",
+        "resume": "Jashandeep Singh  Mohali, Punjab  Ó   +91-7888875339   R   jashannx@gmail.com   °   LinkedIn      GitHub   LeetCode  SUMMARY  Analytical and detail-oriented   Computer Science Engineering undergraduate   with strong expertise in the   MERN stack   and advanced problem-solving skills. Experienced in building   scalable full-stack applications   and translating requirements into efficient technical solutions. Solved   455+ Data Structures & Algorithms problems   with a strong focus on logic, optimization, and clean coding practices. Actively seeking opportunities as an   Associate Software Engineer / Associate Business Analyst   to contribute to product-focused development at PlaySimple Games.  EDUCATION  Chandigarh University, Punjab   July 2027  Mohali, Punjab  Kailash Bahl DAV Sr Sec Public School, Chandigarh   April 2023  Class XII CBSE -   Percentage   -   90.8%   Sector 7, Chandigarh  Kailash Bahl DAV Sr Sec Public School, Chandigarh   March 2021  Class X CBSE -   Percentage   -   88.2%   Sector 7, Chandigarh  PROJECTS Airbnb (Travel   Listing Platform)   |   MongoDB, Express.js, React.js, Node.js, Tailwind CSS —   Jan 2026  •   Built a full-stack Airbnb clone with features like user authentication (JWT), property listings, search filters, and booking system.  •   Designed RESTful APIs using Node.js and Express, ensuring secure and efficient backend operations.  •   Integrated MongoDB for property data storage and deployed the application on Render/Vercel.  Currency Converter App   |   React.js, API Integration, CSS —   June 2025  •   Developed a real-time currency converter fetching live exchange rates via third-party API.  •   Designed a user-friendly, responsive interface for cross-device accessibility.  •   Enhanced usability by supporting multiple global currencies.  Portfolio Website   |   React.js, Tailwind CSS, GitHub, Vercel   July 2025  •   Created a personal portfolio website to showcase skills, projects, and contact details.  •   Improved recruiter engagement by 40 with responsive design and interactive UI.  •   Designed a responsive and user-friendly interface with CSS for seamless usability on desktop and mobile.  SKILLS  Languages:   C++,Java,JavaScript .  Web Development:   HTML, CSS, Bootstrap, React.js, Node.js, Express.js, MongoDB.  CS Fundamentals:   Object-Oriented Programming, DBMS, Computer Networks.  Tools:   Git, GitHub, VS Code.  Areas of Interest:   Full-Stack Development, Algorithm Design, Software Engineering.  ACHIEVEMENTS  •   Solved   455+ Data Structures and Algorithms demonstrating strong logical reasoning and algorithmic thinking.  •   Consistently practiced problem-solving across arrays, trees, graphs, dynamic programming, and greedy algorithms.  •   Currently Recognized for leadership as   Class Representative (2024-2026)  CERTIFICATIONS  •   DBMS Foundations – Coursera (Apr 2025) Gained solid understanding of database design, relational models, and foundational SQL skills for effective data management.  •   Web Development Certification – Apna College (Jan 2026) Comprehensive training in HTML, CSS, JavaScript, and MERN stack fundamentals, with hands-on projects and practical implementation.  •   Class Representative (CR) – B.Tech CSE (Aug-Dec 2024) Coordinated between faculty and 60+ students, managed academic updates, and represented the batch during departmental meetings.  B.E   -   Computer   Science   and   Engineering   -   CGPA   -   7.96",
+        "selfDescription": "I am a passionate and dedicated Computer Science Engineering student with a strong interest in full-stack web development, data structures, and problem solving. I enjoy building real-world projects using technologies like React.js, Node.js, Express.js, MongoDB, and modern JavaScript. I continuously work on improving my coding skills through platforms like LeetCode and CodeChef, and I am always eager to learn new technologies and development practices. I am a quick learner, a good team player, and someone who enjoys solving challenging technical problems.\n\nAlong with technical skills, I possess strong communication and analytical abilities. I have worked on several projects including clone applications and AI-based systems, which helped me understand practical software development workflows and collaboration. I am highly motivated to grow as a software developer and contribute effectively to innovative projects while continuously enhancing my technical expertise and professional skills.",
+        "matchScore": 85,
+        "technicalQuestions": [
+            {
+                "question": "Can you explain the concept of RESTful APIs?",
+                "intention": "To assess understanding of API design principles.",
+                "answer": "RESTful APIs are architectural styles that use HTTP requests to access and use data. They are stateless, meaning each request from the client contains all the information needed to process it. They typically use standard HTTP methods like GET, POST, PUT, and DELETE."
+            },
+            {
+                "question": "How do you manage state in a React application?",
+                "intention": "To evaluate knowledge of state management in React.",
+                "answer": "State in a React application can be managed using the useState hook for local state management, or by using context API or state management libraries like Redux for global state management."
+            }
+        ],
+        "behavioralQuestions": [
+            {
+                "question": "Describe a challenging project you worked on and how you overcame the difficulties.",
+                "intention": "To understand problem-solving and teamwork skills.",
+                "answer": "I worked on an Airbnb clone project where I faced challenges with user authentication. I researched JWT implementation and collaborated with peers to troubleshoot issues, ultimately successfully integrating secure user login."
+            },
+            {
+                "question": "How do you prioritize tasks when working on multiple projects?",
+                "intention": "To gauge time management and organizational skills.",
+                "answer": "I prioritize tasks based on deadlines and project importance. I use tools like Trello to organize my tasks and ensure I allocate time effectively to meet project goals."
+            }
+        ],
+        "skillGaps": [
+            {
+                "skill": "Advanced Database Management",
+                "severity": "medium"
+            },
+            {
+                "skill": "Version Control Best Practices",
+                "severity": "low"
+            }
+        ],
+        "preparationPlan": [
+            {
+                "day": 1,
+                "focus": "Advanced Database Management",
+                "tasks": [
+                    "Review SQL queries and database design principles",
+                    "Complete exercises on database normalization"
+                ]
+            },
+            {
+                "day": 2,
+                "focus": "Version Control Best Practices",
+                "tasks": [
+                    "Study Git branching strategies",
+                    "Practice collaborative workflows using Git"
+                ]
+            }
+        ],
+        "user": "6a0dfc48833c4fecf27268ce",
+        "createdAt": "2026-05-22T12:47:59.544Z",
+        "updatedAt": "2026-05-22T12:47:59.544Z",
+        "__v": 0
+    },
+    "message": "Report retrieved successfully"
+}
+
+
+
+
+selfDescription=
+I am a passionate and dedicated Computer Science Engineering student with a strong interest in full-stack web development, data structures, and problem solving. I enjoy building real-world projects using technologies like React.js, Node.js, Express.js, MongoDB, and modern JavaScript. I continuously work on improving my coding skills through platforms like LeetCode and CodeChef, and I am always eager to learn new technologies and development practices. I am a quick learner, a good team player, and someone who enjoys solving challenging technical problems.
+
+
+jobdescription=We are looking for a motivated and enthusiastic Full Stack Web Developer Intern who is passionate about developing scalable and user-friendly web applications. The candidate should have a good understanding of frontend and backend technologies including HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. Familiarity with REST APIs, authentication systems, version control tools like Git, and responsive UI design is highly preferred.

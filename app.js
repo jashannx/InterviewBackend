@@ -66,7 +66,7 @@ app.use('/api/interview',aiLimiter,speedLimiter, interviewRouter);
 // });
 
 app.get('/', (req, res) => {
-  res.send('Server working perfectly efrewfd');
+  res.send('Server working perfectly sir ');
 });
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`)

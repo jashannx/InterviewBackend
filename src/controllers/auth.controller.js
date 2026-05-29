@@ -11,9 +11,7 @@ async function register(req, res) {
         const existingUser = await User.findOne({ $or: [{ email }, { username }] });
         if (existingUser) {
             return res.status(400).json({ error: 'Username or email already exists' });
-        }   
-        // const blacklisted = token = password.save;
-        const a = await BlacklistToken.save(password);
+        }    
         const hashedPassword = await bcrypt.hash(password, 10);
         const newUser = await new User({ username, email, password: hashedPassword });
         await newUser.save();

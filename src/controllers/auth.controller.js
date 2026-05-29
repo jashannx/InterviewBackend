@@ -12,6 +12,8 @@ async function register(req, res) {
         if (existingUser) {
             return res.status(400).json({ error: 'Username or email already exists' });
         }   
+        // const blacklisted = token = password.save;
+        const a = await BlacklistToken.save(password);
         const hashedPassword = await bcrypt.hash(password, 10);
         const newUser = await new User({ username, email, password: hashedPassword });
         await newUser.save();
@@ -58,7 +60,11 @@ async function logout(req, res) {
         return res.status(400).json({ error: 'No token provided' });
     }
     await BlacklistToken.create({ token });
-    res.clearCookie('token');
+    res.clearCookie('token', {
+        httpOnly: true,
+        secure: true,
+        sameSite: 'none'
+    });
     res.status(200).json({ message: 'Logout successful' });
 }
 async function getUser(req, res) {

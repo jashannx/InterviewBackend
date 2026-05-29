@@ -64,7 +64,13 @@ app.use('/api/interview',aiLimiter,speedLimiter, interviewRouter);
 //   selfdescription: "Passionate backend developer",
 //   jobdescription: "Looking for a full stack developer with MongoDB and Express skills",
 // });
-
+//
+app.get('/api/health', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Server is healthy",
+  });
+});
 app.get('/', (req, res) => {
   res.send('Server working perfectly sir ');
 });
